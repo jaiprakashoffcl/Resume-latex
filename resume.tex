@@ -1,0 +1,144 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \documentclass[]{deedy-resume-openfont}
+
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Profile
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Jai}{Prakash R}{jaiprakash292033@gmail.com | 6380611253 | Tiruchirapalli, Tamil Nadu | GitHub : jaiprakashoffcl \textbar{} Linkedin: jai-prakash-ramesh \textbar{} Portfolio : portfolio-website-jaiprakash-three.vercel.app/}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Education
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\raggedright
+
+\runsubsection{Saranathan College of Engineering}\descript{| B-TECH IT}\hfill \location{Trichy,TN | June 2021 - Jun 2025}\\
+GPA: 7.790\\
+\sectionsep
+  
+
+\runsubsection{Chelammal Matriculation Higher Secondary School}\descript{| HSC}\hfill \location{Trichy,TN | Jun 2021}\\
+GPA: 84.2\%\\
+\sectionsep
+  
+
+\runsubsection{St.James Matriculation Higher Secondary School}\descript{| SSLC}\hfill \location{Trichy,TN | June 2019}\\
+GPA: 85.28\%\\
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Experience
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+\runsubsection{ShadowFox}\descript{| Python Developer Intern}\hfill \location{Chennai, India - Remote | August 2024}
+\begin{tightemize}
+	\item Tech Stack: Python, Beautiful Soup, Scrapy, OpenCV, Pandas, Jupyter Notebook
+	\item Completed beginner to advanced tasks involving Python programming, web scraping, and data analysis.
+	\item Enhanced problem-solving and debugging skills while completing various Python-based tasks and challenges.
+\end{tightemize}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Skills
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+\raggedright
+\begin{tabular}{ l l }
+	\descript{Programming Language} & {\location{Python, C, Java (Basic), HTML, CSS, JavaScript}}                     \\
+	\descript{Databases}            & {\location{MySQL}}                                                              \\
+	\descript{Dev Tools}            & {\location{Visual Studio Code, Jupyter Notebook, Google Colab, Git, GitHub}}    \\
+	\descript{Soft Skills}          & {\location{Leadership, Communication, Teamwork, Fast Learner, Time Management}} \\
+\end{tabular}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Projects
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+\raggedright
+
+\runsubsection{\large{Earthquake Prediction System}}
+\descript{| Python, Basemap, Pandas, Scikit-learn}\\
+Built a system to predict earthquake magnitude and depth using seismic data. Visualized earthquake locations on a map and identified high-risk areas\\
+\sectionsep
+  
+
+\runsubsection{\large{Smart Attendance System}}
+\descript{| Python, OpenCV, SMTP}\\
+Developed a Smart Attendance System using Python and OpenCV for facial recognition. It supports CSV output for attendance records and sends automated reports via email.\\
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Awards
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Awards}
+\runsubsection{\large{Mini Project Competition}} \descript{First Place | May 2023} \\
+DO-IT Association, Saranathan College of Engineering\\
+\sectionsep
+\runsubsection{\large{PROJECT PRESENTATION}} \descript{SECOND PLACE | SEPT-23} \\
+MAGNUS\textquotesingle{}23, Chennai Insitute of Technology , Chennai\\
+\sectionsep
+\runsubsection{\large{Treasure Hunt}} \descript{First Place | Mar 2023} \\
+Festronix\textquotesingle{}23 ,K. Ramakrishnan College of Technology\\
+\sectionsep
+\runsubsection{\large{Datathon (Hackathon)}} \descript{Participated | Feb 2024} \\
+Bannari Amman Institute of Technology\\
+\sectionsep
+\ 
+\end{document}
